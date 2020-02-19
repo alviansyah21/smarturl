@@ -51,3 +51,10 @@
 .form-line [type=text]:focus{
   border: none;
 }
+
+.media {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-align: start;
+  align-items: flex-start;
+}
