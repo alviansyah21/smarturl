@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-  <link rel=icon href="vendor//img/favicon.png">
+  <link rel=icon href="vendor/img/favicon.png">
 
   <link rel="stylesheet" href="vendor/bootstrap/css/bootstrap.min.css">
   <link rel="stylesheet" href="vendor/css/style.css">
@@ -13,6 +13,8 @@
   <script src="vendor/bootstrap/js/popper.min.js"></script>
   <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
   <script src="vendor/bootstrap/js/bs-custom-file-input.min.js"></script>
+
+  <script src="vendor/fontawesome/js/all.min.js"></script>
 
   <script src="vendor/js/script.js"></script>
   <title>Smarturl.id - Smart Digital Store</title>
@@ -53,7 +55,7 @@
       </div>
     </div>
   </header>
-  <main>
+  <main class="bg-white">
     <div class="container-fluid text-white bg-teal h-64 mx-auto py-5 mb-3">
       <div class="container py-5 text-justify">
         <h1 class="font-weight-bold">SmartDigitalStore</h1>
@@ -99,35 +101,39 @@
           <h5 class="font-weight-bold mt-5">Insert Your Links</h5>
           <div class="row">
             <div class="col-md-12">
-              <div class="d-flex justify-content-end align-items-center">
-                <small class="text-muted px-3">https://www.youtube.com/watch?v=xxxxxxxxx</small>
+              <div class="d-flex align-items-center">
+                <i class="fab fa-youtube"></i>
+                <small class="font-weight-bold px-2">Youtube</small>
+                <small class="text-muted px-3 ml-auto">https://www.youtube.com/watch?v=xxxxxxxxx</small>
                 <button type="button" class="close">
                   <span>&times;</span>
                 </button>
               </div>
             </div>
-            <!--<div class="col-md-12 mb-1">
-              <div class="d-flex justify-content-start align-items-center">
-                <small class="text-muted">https://www.youtube.com/watch?v=xxxxxxxxx</small>
+            <div class="col-md-12 mt-1">
+              <div class="d-flex align-items-center">
+                <small class="text-teal mx-45 mr-auto">Judul Utama - Preview Utama</small>
               </div>
-            </div>-->
+            </div>
             <div class="col-md-12 mb-1">
               <hr>
             </div>
 
             <div class="col-md-12">
-              <div class="d-flex justify-content-end align-items-center">
-                <small class="text-muted px-3">https://www.youtube.com/watch?v=xxxxxxxxx</small>
+              <div class="d-flex align-items-center">
+                <i class="fab fa-youtube"></i>
+                <small class="font-weight-bold px-2">Youtube</small>
+                <small class="text-muted px-3 ml-auto">https://www.youtube.com/watch?v=xxxxxxxxx</small>
                 <button type="button" class="close">
                   <span>&times;</span>
                 </button>
               </div>
             </div>
-            <!--<div class="col-md-12 mb-1">
-              <div class="d-flex justify-content-start align-items-center">
-                <small class="text-muted">https://www.youtube.com/watch?v=xxxxxxxxx</small>
+            <div class="col-md-12 mt-1">
+              <div class="d-flex align-items-center">
+                <small class="text-teal mx-45 mr-auto">Judul Utama - Preview Utama</small>
               </div>
-            </div>-->
+            </div>
             <div class="col-md-12 mb-1">
               <hr>
             </div>
@@ -155,8 +161,10 @@
           <h5 class="font-weight-bold mt-5">Social Links</h5>
           <div class="row">
             <div class="col-md-12">
-              <div class="d-flex justify-content-end align-items-center">
-                <small class="text-muted px-3">https://twitter.com/xxxxxxxxx/</small>
+              <div class="d-flex align-items-center">
+                <i class="fab fa-twitter"></i>
+                <small class="font-weight-bold px-2">Twitter</small>
+                <small class="text-muted px-3 ml-auto">@twitter</small>
                 <button type="button" class="close">
                   <span>&times;</span>
                 </button>
@@ -167,8 +175,10 @@
             </div>
 
             <div class="col-md-12">
-              <div class="d-flex justify-content-end align-items-center">
-                <small class="text-muted px-3">https://www.instagram.com/xxxxxxxxx/</small>
+              <div class="d-flex align-items-center">
+                <i class="fab fa-instagram"></i>
+                <small class="font-weight-bold px-2">Instagram</small>
+                <small class="text-muted px-3 ml-auto">@instagram</small>
                 <button type="button" class="close">
                   <span>&times;</span>
                 </button>
@@ -178,24 +188,30 @@
               <hr>
             </div>
 
-            <div class="col-md-12 mb-1">
-              <div class="input-group">
-                <input type="text" class="form-control form-control-sm" placeholder="Link to music url">
-                <div class="input-group-append">
-                  <button class="btn btn-sm btn-text-teal font-weight-bold px-3" type="button">Submit</button>
-                  <button type="button" class="close">
-                    <span>&times;</span>
-                  </button>
+            <div class="col-md-12">
+              <div class="d-flex align-items-center">
+                <i class="fab fa-vimeo"></i>
+                <small class="font-weight-bold px-2">Vimeo</small>
+                <div class="input-group pl-5 ml-auto">
+                  <input type="text" class="form-control form-control-sm" placeholder="Link vimeo url">
+                  <div class="input-group-append">
+                    <button class="btn btn-sm btn-text-teal font-weight-bold px-3" type="button">Submit</button>
+                    <button type="button" class="close">
+                      <span>&times;</span>
+                    </button>
+                  </div>
                 </div>
               </div>
+              
             </div>
-            <div class="col-md-12 mb-1">
+            <div class="col-md-12">
               <hr>
             </div>
 
-            <div class="col-md-9"></div>
+            <div class="col-md-9">
+              <small>View More <i class="fas fa-angle-right"></i></small>
+            </div>
             <div class="col-md-3 mb-5">
-              <button type="button" class="btn btn-sm btn-block btn-teal font-weight-bold rounded-pill">Link</button>
             </div>
           </div>
 
@@ -242,8 +258,10 @@
     </div>
   </main>
   
-  <footer>
-
+  <footer class="text-muted text-center text-small bg-light">
+    <div class="container">
+      
+    </div>
   </footer>
 </body>
 </html>

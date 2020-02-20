@@ -29,7 +29,14 @@
 
 .btn-text-teal:hover{
   color:#44b3a7;
+}
 
+.text-teal{
+  color:#4fd1c5;
+}
+
+.mx-45{
+  margin-left: 1.7rem;
 }
 
 .form-line{
