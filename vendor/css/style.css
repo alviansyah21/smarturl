@@ -7,6 +7,10 @@
   background-color: #4fd1c5;
 }
 
+.bg-light-gray {
+  background-color: #e9ecef;
+}
+
 .h-64 {
   height: 17rem;
 }
@@ -37,6 +41,10 @@
 
 .mx-45{
   margin-left: 1.7rem;
+}
+
+.mt-45{
+  margin-top: 1.98rem;
 }
 
 .form-line{
