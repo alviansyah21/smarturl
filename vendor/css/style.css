@@ -7,9 +7,14 @@
   background-color: #4fd1c5;
 }
 
+.bg-indigo {
+  background-color: #5B2F99;
+}
+
 .bg-light-gray {
   background-color: #e9ecef;
 }
+
 
 .h-64 {
   height: 17rem;
@@ -39,12 +44,32 @@
   color:#4fd1c5;
 }
 
+.btn-text-indigo{
+  color: #5B2F99;
+}
+
+.btn-text-indigo:hover{
+  color:#3f2169;
+}
+
+.text-indigo{
+  color:#5B2F99;
+}
+
 .mx-45{
   margin-left: 1.7rem;
 }
 
 .mt-45{
   margin-top: 1.98rem;
+}
+
+.mt-n2 {
+  margin-top: -0.5rem;
+}
+
+.ml-n4 {
+  margin-left: -0.75rem;
 }
 
 .form-line{
