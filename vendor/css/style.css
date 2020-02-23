@@ -32,6 +32,17 @@
   border-color:#44b3a7;
 }
 
+.btn-outline-teal{
+  color: #4fd1c5;
+  border-color:#4fd1c5;
+}
+
+.btn-outline-teal:hover{
+  color: #fff;
+  background-color:#4fd1c5;
+  border-color:#4fd1c5;
+}
+
 .btn-text-teal{
   color: #4fd1c5;
 }
@@ -74,6 +85,10 @@
 
 .ml-n35 {
   margin-left: -0.79rem;
+}
+
+.pr-n2 {
+  padding-right: -0.5rem;
 }
 
 .form-line{
