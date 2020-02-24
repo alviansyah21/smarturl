@@ -1,5 +1,5 @@
 $(document).ready(function(){
-  var change = document.getElementsByTagName("li");
+  var change = document.getElementsByClassName("nav-li");
   for (var i = 0; i < change.length; i++) {
     change[i].addEventListener("click", function() {
       var current = document.getElementsByClassName("active border-bottom border-info");
