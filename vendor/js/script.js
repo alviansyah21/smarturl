@@ -11,4 +11,6 @@ $(document).ready(function(){
   }
   
   bsCustomFileInput.init()
+
+  $('#dataTable').DataTable();
 });
