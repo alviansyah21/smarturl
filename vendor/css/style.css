@@ -122,11 +122,27 @@
   align-items: flex-start;
 }
 
+.img-home{
+  background-size: cover;
+  min-height: 600px;
+}
+
+.img-items{
+  min-height: 500px;
+  background-size: cover;
+}
+
+
 /* Most of the Smartphones Mobiles (Portrait) 320px to 479px
 -------------------------------------------------- */
 @media (min-width: 320px) and (max-width: 480px) {
-#preview {
-  display: none;
-}
+  #preview {
+    display: none;
+  }
+
+  .img-home{
+    background-size: cover;
+    min-height: 300px;
+  }
 
 }
