@@ -137,6 +137,16 @@
   background-size: cover;
 }
 
+.grid-list{
+  max-width: 100%;
+  height: auto;
+}
+
+.grid-size{
+  height: 220px;
+  max-width: 250px;
+}
+
 /* Login -- Signup
 --------------------------------------------------*/
 .form-label-group {
@@ -213,5 +223,10 @@
 
   .img-login{
     display: none;
+  }
+
+  .grid-size{
+    height: 180px;
+    max-width: 250px;
   }
 }
