@@ -147,6 +147,11 @@
   max-width: 250px;
 }
 
+.img-smart{
+  width: 160px;
+  height: auto;
+}
+
 /* Login -- Signup
 --------------------------------------------------*/
 .form-label-group {
@@ -228,5 +233,10 @@
   .grid-size{
     height: 150px;
     max-width: 200px;
+  }
+
+  .img-smart{
+    width: 140px;
+    height: auto;
   }
 }
