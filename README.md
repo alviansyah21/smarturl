@@ -1,11 +1,11 @@
 # smarturl
 Frontend - Smarturl
 
-Link For Dashboard
+Link For Dashboard Page
 https://alviansyah21.github.io/smarturl/dashboard/
 
 
-Link For Dashboard
+Link For Analytic Page
 https://alviansyah21.github.io/smarturl/analytic/
 
 
